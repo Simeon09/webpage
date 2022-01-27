@@ -20,6 +20,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat&family=Poppins&family=Source+Serif+Pro:wght@600&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
 
     <link rel="stylesheet" href="first.css">
 
@@ -74,7 +76,29 @@
             </div>
         </div>
     </header>
-    <section class="main-body">
+    <section>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+          
+    </section>
+   <!-- <section class="main-body">
         <div class="picture">
             <div><img src="Group 9.svg">
                 <h3 class="first-text">Nur School</h3>
@@ -104,9 +128,10 @@
             </div>
 
         </div>
-    </section>
 
-
+    </section>-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
